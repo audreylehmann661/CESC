@@ -17,7 +17,7 @@ public class DBConnection {
         try {
             String url = "jdbc:mysql://localhost:3306/cesc_db";
             String user = "root";
-            String password = "";
+            String password = "Dociel@!23";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(url, user, password);
